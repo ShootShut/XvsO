@@ -33,6 +33,6 @@ public class Point {
     public static Point getRandomPoint() {
         Random random = new Random();
         Point point = new Point(random.nextInt(Field.SIZE), random.nextInt(Field.SIZE));
-        return null;
+        return point;
     }
 }

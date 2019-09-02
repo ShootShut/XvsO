@@ -11,6 +11,7 @@ import java.awt.event.ActionListener;
 
 public class GameWindow extends JFrame {
 
+    Field field;
     public static final int SIZE = 3;
 
     public void init() {
